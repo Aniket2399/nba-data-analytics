@@ -18,7 +18,7 @@
 
 ### 🖥️ The live dashboard — League Overview
 
-![Dashboard — League Overview](docs/dashboard-league.png)
+![Dashboard — League Overview](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/dashboard-league.png?raw=true)
 
 </div>
 
