@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw data from Kaggle and APIs
+    schema: raw
+    tables:
+      - name: kaggle_game
+        description: Game results from Kaggle
+      - name: kaggle_team
+        description: Team information from Kaggle
+      - name: kaggle_player
+        description: Player information from Kaggle

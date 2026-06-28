@@ -1,0 +1,31 @@
+abbr,team_name,city,state,conference,founded,arena,coach,games,wins,losses,win_pct,ppg,opp_ppg
+SAS,San Antonio Spurs,San Antonio,Texas,West,1976,,,3983,2385.0,1598.0,0.599,104.7,101.7
+LAL,Los Angeles Lakers,Los Angeles,California,West,1948,Crypto.com Arena,Darvin Ham,6027,3595.0,2432.0,0.596,105.7,103.0
+BOS,Boston Celtics,Boston,Massachusetts,East,1946,TD Garden,Joe Mazzulla,6106,3566.0,2540.0,0.584,104.4,101.8
+UTA,Utah Jazz,Utah,Utah,West,1974,Delta Center,Will Hardy,3948,2142.0,1806.0,0.543,103.4,102.0
+PHX,Phoenix Suns,Phoenix,Arizona,West,1968,Footprint Center,Frank Vogel,4392,2370.0,2022.0,0.54,107.8,106.5
+POR,Portland Trail Blazers,Portland,Oregon,West,1970,Moda Center,Chauncey Billups,4198,2229.0,1969.0,0.531,104.9,103.9
+OKC,Oklahoma City Thunder,Oklahoma City,Oklahoma,West,1967,Paycom Center,Mark Daigneault,4491,2377.0,2114.0,0.529,105.3,104.5
+MIL,Milwaukee Bucks,Milwaukee,Wisconsin,East,1968,Fiserv Forum,Adrian Griffin,4411,2315.0,2096.0,0.525,104.8,103.5
+MIA,Miami Heat,Miami,Florida,East,1988,Kaseya Center,Erik Spoelstra,2970,1547.0,1423.0,0.521,98.9,98.5
+PHI,Philadelphia 76ers,Philadelphia,Pennsylvania,East,1949,Wells Fargo Center,Nick Nurse,5723,2955.0,2768.0,0.516,103.5,103.2
+CHI,Chicago Bulls,Chicago,Illinois,East,1966,United Center,Billy Donovan,4504,2311.0,2193.0,0.513,102.2,101.8
+HOU,Houston Rockets,Houston,Texas,West,1967,Toyota Center,Ime Udoka,4481,2292.0,2189.0,0.511,105.0,104.6
+DAL,Dallas Mavericks,Dallas,Texas,West,1980,American Airlines Center,Jason Kidd,3575,1793.0,1782.0,0.502,103.6,103.7
+IND,Indiana Pacers,Indiana,Indiana,East,1976,Gainbridge Fieldhouse ,Rick Carlisle,3809,1884.0,1925.0,0.495,102.8,102.6
+ATL,Atlanta Hawks,Atlanta,Georgia,East,1949,State Farm Arena,Quin Snyder,5614,2771.0,2843.0,0.494,102.0,102.4
+DEN,Denver Nuggets,Denver,Colorado,West,1976,Ball Arena,Michael Malone,3836,1881.0,1955.0,0.49,107.6,108.2
+NYK,New York Knicks,New York,New York,East,1946,Madison Square Garden,Tom Thibodeau,5786,2814.0,2972.0,0.486,100.8,101.1
+TOR,Toronto Raptors,Toronto,Ontario,East,1995,Scotiabank Arena,Darko Rajakovic,2261,1092.0,1169.0,0.483,100.9,101.1
+DET,Detroit Pistons,Detroit,Michigan,East,1948,Little Caesars Arena,Monty Williams,5671,2727.0,2944.0,0.481,101.1,101.7
+GSW,Golden State Warriors,Golden State,California,West,1946,Chase Center,Steve Kerr,5817,2798.0,3019.0,0.481,104.8,105.3
+CLE,Cleveland Cavaliers,Cleveland,Ohio,East,1970,Rocket Mortgage FieldHouse,JB Bickerstaff,4158,1972.0,2186.0,0.474,101.1,101.9
+ORL,Orlando Magic,Orlando,Florida,East,1989,Amway Center,Jamahl Mosley,2753,1299.0,1454.0,0.472,100.9,101.7
+NOP,New Orleans Pelicans,New Orleans,Louisiana,West,2002,Smoothie King Center,Willie Green,1659,777.0,882.0,0.468,101.3,102.2
+SAC,Sacramento Kings,Sacramento,California,West,1948,Golden 1 Center,Mike Brown,5513,2522.0,2991.0,0.457,103.8,105.2
+WAS,Washington Wizards,Washington,District of Columbia,East,1961,,,4733,2144.0,2589.0,0.453,104.3,105.7
+CHA,Charlotte Hornets,Charlotte,North Carolina,East,1988,,,2599,1150.0,1449.0,0.442,100.6,102.6
+BKN,Brooklyn Nets,Brooklyn,New York,East,1976,Barclays Center,Jacque Vaughn,3758,1604.0,2154.0,0.427,101.8,103.9
+MEM,Memphis Grizzlies,Memphis,Tennessee,West,1995,FedExForum,Taylor Jenkins,2241,953.0,1288.0,0.425,98.9,101.1
+LAC,Los Angeles Clippers,Los Angeles,California,West,1970,Crypto.com Arena,Tyronn Lue,4085,1695.0,2390.0,0.415,103.2,106.0
+MIN,Minnesota Timberwolves,Minnesota,Minnesota,West,1989,Target Center,Chris Finch,2686,1080.0,1606.0,0.402,100.7,103.2
