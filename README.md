@@ -314,7 +314,7 @@ The complete project presentation (also in [`docs/slides/`](docs/slides)):
 
 | | | |
 |:--:|:--:|:--:|
-| ![1](nba--analytics/docs/slides/slide-1.png) | ![2](docs/slides/slide-2.png) | ![3](docs/slides/slide-3.png) |
+| ![1](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/slides/slide-1.png?raw=true) | ![2](docs/slides/slide-2.png) | ![3](docs/slides/slide-3.png) |
 | ![4](docs/slides/slide-4.png) | ![5](docs/slides/slide-5.png) | ![6](docs/slides/slide-6.png) |
 | ![7](docs/slides/slide-7.png) | ![8](docs/slides/slide-8.png) | ![9](docs/slides/slide-9.png) |
 
