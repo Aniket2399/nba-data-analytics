@@ -14,7 +14,6 @@
 
 🔗 **Live demo → https://courtside-nba-analytics.vercel.app**
 
-![Title slide](docs/slides/slide-1.png)
 
 ### 🖥️ The live dashboard — League Overview
 
@@ -53,8 +52,6 @@
 
 > **A 2.2 GB database is not an insight.** The value is in turning raw rows into answers people can act on — *fast*.
 
-![Why slide](docs/slides/slide-2.png)
-
 | Stage | What it means |
 |---|---|
 | **01 · Problem** — *Data nobody can use* | Millions of play-by-play rows sit locked in a raw file — no structure, no metrics, no way to ask a question without writing heavy SQL every time. |
@@ -69,7 +66,6 @@
 
 A classic **medallion architecture** (Bronze → Silver → Gold) built on **DuckDB + dbt**: land raw data as-is, clean and conform it in staging, then aggregate into business-ready marts.
 
-![Architecture slide](docs/slides/slide-3.png)
 
 ```
 SOURCES                  DATA WAREHOUSE · DuckDB + dbt                       CONSUME
@@ -93,7 +89,6 @@ SQLite 2.2GB │ land as-is │   │ clean · test  │   │ 9 marts, CSV │ 
 
 Five raw sources are cleaned in dbt staging (one conformed view per source), then composed into **9 gold marts** grouped into **League / Team / Player** domains.
 
-![Data lineage slide](docs/slides/slide-4.png)
 
 | Mart | Domain | Built from |
 |---|---|---|
@@ -115,8 +110,6 @@ Five raw sources are cleaned in dbt staging (one conformed view per source), the
 
 Six pages, **one data model**. Built with React + TypeScript + Vite, every chart hand-rolled in SVG (no charting library).
 
-![Six pages slide](docs/slides/slide-7.png)
-
 > **Player Stats page — live:**
 >
 > ![Dashboard — Players](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/dashboard-players.png?raw=true)
@@ -136,8 +129,6 @@ Six pages, **one data model**. Built with React + TypeScript + Vite, every chart
 
 Built in **React + SVG** — hover any zone to filter the court and reveal its efficiency. **11 shot zones parsed straight from play-by-play** distance & text; the active zone fills with its real FG% (makes / attempts).
 
-![Shot-zone explorer slide](docs/slides/slide-6.png)
-
 - Hover to filter — any zone highlights instantly with its shooting split.
 - Zones by shot distance · corner = nearest 3s · top = deepest · **all % are real**.
 - Pure React + SVG — **no charting library**.
@@ -147,8 +138,6 @@ Built in **React + SVG** — hover any zone to filter the court and reveal its e
 ## 🔍 Use Case: Scouting
 
 The same marts profile a **whole team** and a **single player** — pinpointing exactly where each wins and where they can be attacked.
-
-![Scouting slide](docs/slides/slide-5.png)
 
 **Team · Boston Celtics · 2022-23** — `+7.0` net rating, `.567` eFG%
 - **Strength:** Elite on both ends — 115.7 offense, 108.8 defense for a league-best +7.0 net.
@@ -166,7 +155,6 @@ The same marts profile a **whole team** and a **single player** — pinpointing 
 
 The marts feed simple, transparent models. *For analysis & education — models inform decisions, they don't guarantee outcomes.*
 
-![Betting slide](docs/slides/slide-8.png)
 
 | Market | Signal |
 |---|---|
@@ -292,8 +280,6 @@ This repo deploys as a Vite app living in the `frontend/` subdirectory.
 
 > **From 2.2 GB to decisions that matter.**
 
-![Impact slide](docs/slides/slide-9.png)
-
 - Raw, unusable data → **9 trusted, query-ready datasets**.
 - Every team & player **profiled for strengths and weaknesses**.
 - One source of truth feeding **scouting, BI, and betting models**.
@@ -314,9 +300,9 @@ The complete project presentation (also in [`docs/slides/`](docs/slides)):
 
 | | | |
 |:--:|:--:|:--:|
-| ![1](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/slides/slide-1.png?raw=true) | ![2](docs/slides/slide-2.png) | ![3](docs/slides/slide-3.png) |
-| ![4](docs/slides/slide-4.png) | ![5](docs/slides/slide-5.png) | ![6](docs/slides/slide-6.png) |
-| ![7](docs/slides/slide-7.png) | ![8](docs/slides/slide-8.png) | ![9](docs/slides/slide-9.png) |
+| ![1](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/slides/slide-1.png?raw=true) | ![2](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/slides/slide-2.png) | ![3](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/slides/slide-3.png) |
+| ![4](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/slides/slide-4.png) | ![5](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/slides/slide-5.png) | ![6](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/slides/slide-6.png) |
+| ![7](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/slides/slide-7.png) | ![8](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/slides/slide-8.png) | ![9](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/slides/slide-9.png) |
 
 ---
 
