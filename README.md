@@ -119,7 +119,7 @@ Six pages, **one data model**. Built with React + TypeScript + Vite, every chart
 
 > **Player Stats page — live:**
 >
-> ![Dashboard — Players](docs/dashboard-players.png)
+> ![Dashboard — Players](https://github.com/Aniket2399/nba-data-analytics/blob/main/nba-analytics/docs/dashboard-players.png?raw=true)
 
 | # | Page | What it shows |
 |---|---|---|
